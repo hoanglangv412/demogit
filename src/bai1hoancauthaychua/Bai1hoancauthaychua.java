@@ -37,7 +37,7 @@ public class Bai1hoancauthaychua {
             nhanVien[i].tinhLuong();
         }
         System.out.println("Thông tin của các nhân viên trong công ty: ");
-        for (int i = 0; i < soNhanVien; i++) {
+        for (int i = 0; i < soNhanVien; i += 1) {
             System.out.println(nhanVien[i].toString());
         }
         System.out.println("Danh sách nhân viên có lương thấp hơn mức lương trung bình của " + "các nhân viên trong công ty.");
